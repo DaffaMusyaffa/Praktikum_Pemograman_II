@@ -7,7 +7,7 @@ public class Pengeluaran extends JFrame {
 
     public Pengeluaran() {
         setTitle("Pengeluaran Laundry");
-        setSize(400, 300);
+        setSize(400, 250); // Ukuran disesuaikan setelah menghapus komentar
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
 
@@ -35,7 +35,7 @@ public class Pengeluaran extends JFrame {
         buttonPanel.add(backButton);
 
         panel.add(buttonPanel);
-        
+
         outputArea = new JTextArea();
         outputArea.setEditable(false);
         panel.add(new JScrollPane(outputArea));
@@ -56,5 +56,9 @@ public class Pengeluaran extends JFrame {
         } catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(this, "Jumlah tidak valid. Mohon masukkan angka.", "Error", JOptionPane.ERROR_MESSAGE);
         }
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(Pengeluaran::new);
     }
 }

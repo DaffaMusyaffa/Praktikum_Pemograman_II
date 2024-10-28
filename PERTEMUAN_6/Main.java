@@ -1,5 +1,3 @@
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import javax.swing.*;
 
 public class Main extends JFrame {
@@ -11,24 +9,13 @@ public class Main extends JFrame {
 
         JMenuBar menuBar = new JMenuBar();
         JMenu menu = new JMenu("Menu");
-        
-        // Form Transaksi
-        JMenuItem transaksiItem = new JMenuItem("Transaksi");
-        transaksiItem.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                new Transaksi();
-            }
-        });
-        
-        // Form Member
-        JMenuItem memberItem = new JMenuItem("Member");
-        memberItem.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                new Member();
-            }
-        });
 
-        // Form Pengeluaran
+        JMenuItem transaksiItem = new JMenuItem("Transaksi");
+        transaksiItem.addActionListener(e -> new Transaksi());
+
+        JMenuItem memberItem = new JMenuItem("Member");
+        memberItem.addActionListener(e -> new Member());
+
         JMenuItem pengeluaranItem = new JMenuItem("Pengeluaran");
         pengeluaranItem.addActionListener(e -> new Pengeluaran());
 

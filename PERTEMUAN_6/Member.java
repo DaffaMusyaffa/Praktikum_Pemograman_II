@@ -7,7 +7,7 @@ public class Member extends JFrame {
 
     public Member() {
         setTitle("Member Laundry");
-        setSize(400, 300);
+        setSize(400, 250); // Ukuran disesuaikan setelah menghapus komentar
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
 
@@ -39,7 +39,7 @@ public class Member extends JFrame {
         buttonPanel.add(backButton);
 
         panel.add(buttonPanel);
-        
+
         outputArea = new JTextArea();
         outputArea.setEditable(false);
         panel.add(new JScrollPane(outputArea));
@@ -61,5 +61,9 @@ public class Member extends JFrame {
         } else {
             JOptionPane.showMessageDialog(this, "Semua field harus diisi!", "Error", JOptionPane.ERROR_MESSAGE);
         }
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(Member::new);
     }
 }
