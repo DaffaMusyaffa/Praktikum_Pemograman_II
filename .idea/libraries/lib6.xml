@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="lib6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/PERTEMUAN11_MVC/jfcmvc/lib/javassist-3.30.2-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/PERTEMUAN11_MVC/jfcmvc/lib/ognl-3.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/PERTEMUAN11_MVC/jfcmvc/lib/slf4j-api-2.0.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/PERTEMUAN11_MVC/jfcmvc/lib/asm-7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/PERTEMUAN11_MVC/jfcmvc/lib/reload4j-1.2.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/PERTEMUAN11_MVC/jfcmvc/lib/cglib-3.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/PERTEMUAN11_MVC/jfcmvc/lib/mybatis-3.5.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/PERTEMUAN11_MVC/jfcmvc/lib/log4j-api-2.23.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/PERTEMUAN11_MVC/jfcmvc/lib/commons-logging-1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/PERTEMUAN11_MVC/jfcmvc/lib/mysql-connector-j-9.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
